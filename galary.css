@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  animation: bgChange 12s infinite;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+min-height: 100vh;
+  margin: 0;
+  padding: 0;
+
+}
+
+/* Background image animation */
+@keyframes bgChange {
+   0% {background-image: url('wood2.jpg');}
+   10%{background-image: url('chair3.jpeg');}
+   20%{background-image: url('sofa.jpg');}
+   30%{background-image: url('bed2.jpeg');}
+   40%{background-image: url('wood1.jpg');}
+   50%{background-image: url('sofa6.jpeg');}
+   60%{background-image: url('sofa2.jpg');}
+   70%{background-image: url('wood6.avif');}
+   80%{background-image: url('table2.jpeg');}
+   90%{background-image: url('bed1.jpeg');}
+   100%{background-image: url('Brighton2.webp');}
+}
+
+
+a{
+  text-decoration: none;
+  color:white;
+}
+/* Footer with exit button */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 90%;
+  text-align: right;
+  padding: 10px;
+}
+
+
+
